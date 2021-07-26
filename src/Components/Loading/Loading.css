@@ -1,0 +1,48 @@
+body {
+    background-color: darkcyan;
+}
+
+.loadingPanel {
+    padding: 20px;
+    border: 4px solid black;
+    display: inline-block;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 500px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+
+.loadingprasents {
+    z-index: 1000;
+    color: #2f00ff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 900;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.loadingPanel .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1;
+    transition: 1s;
+}
+
+.color {
+    color: #7f63fc;
+    color: #9079f5;
+    color: #5430f5;
+    color: #4a24f3;
+    color: #3c12f7;
+    color: #6a4dee;
+}
